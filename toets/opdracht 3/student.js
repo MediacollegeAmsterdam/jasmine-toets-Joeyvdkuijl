@@ -1,17 +1,15 @@
-function Student(naam, studentId) {
+function Student(naam, studentId, klas) {
 
     let obj = this;
-    this.name = naam + 'Hi';
-    this.id = studentId;
+    obj.name = naam + 'Hi';
+    obj.id = studentId;
     obj.cijfers = [];
-
-    let klas = '';
-
+    obj.klas = klas;
 }
-
-let student = new Student('myName', '0001');
+let student = new Student('myName', '0001', 'md2a');
+student.
 
 // Hier moet je de variabele klas een waarde geven bijvoorbeeld MD2
 console.log(
-    /* Hier moet de variabele klas getoond worden */
+    student.klas
 )

@@ -13,7 +13,4 @@ Maak een schermprint van de directory structuur van je project en voeg deze afbe
 zie screenshots
 ## c. Jasmine commando's (0,5 punt)
 - Welke commando('s) heb je nodig om de bovenstaande directory structuur te maken.   
-  jasmine init
-
 - Welke commando('s) heb je nodig om de testen uit te voeren.
-  jasmine
