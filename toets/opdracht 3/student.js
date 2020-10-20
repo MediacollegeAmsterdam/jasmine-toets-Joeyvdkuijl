@@ -5,6 +5,7 @@ function Student(naam, studentId, klas) {
     obj.id = studentId;
     obj.cijfers = [];
     obj.klas = klas;
+
 }
 let student = new Student('myName', '0001', 'md2a');
 student.
@@ -13,3 +14,6 @@ student.
 console.log(
     student.klas
 )
+
+let student = new Student('myName', '0001', 'md2a');
+
