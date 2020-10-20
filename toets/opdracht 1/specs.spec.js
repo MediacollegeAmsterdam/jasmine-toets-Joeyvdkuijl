@@ -8,19 +8,20 @@ describe('Testje 1', function() {
 describe('Testje 2', function () {
     it('should test', function () {
         expect(unitTest.item).toBe('voorbeeld');
+    });
         it('should test', function () {
             expect(unitTest.nummer).toEqual(3);
         });
-    });
 });
 
 describe('Testje 3', function () {
     it('should test', function () {
         expect(unitTest.beschrijving).toBe('Beschrijving');
-        describe('Testje 4', function () {
-            it('should test', function () {
-                expect(unitTest.boodschap).toEqual('Hallo');
-            });
-        });
+    });
+});
+
+describe('Testje 4', function () {
+    it('should test', function () {
+        expect(unitTest.boodschap).toEqual('Hallo');
     });
 });
